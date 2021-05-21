@@ -1,0 +1,110 @@
+body{
+    background-color: beige;
+    background-image: url(Pictures/back.jpeg);
+   
+  
+}
+*{
+    margin: 0px;
+    /* padding: 0PX; */
+}
+nav{
+    /* height: 50px; */
+    text-align: center;
+    color:white;
+    /* padding-top: 15px; */
+    font-style: italic;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 25px;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    /* padding: 5px 0; */
+    color:white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: orchid;
+}
+.one{
+    color: white;
+    text-align: center;
+ margin: 200px;
+ font-size: 30px;
+ padding: 40px 60px;
+}
+.header button{
+    color: #fff;
+    background-color: orchid;
+    /* padding: 18px 38px; */
+    border:none;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    border: orchid 1px solid;
+     padding: 20px 30px;  
+    border-radius: 10px; 
+    margin-left: 500px;
+}
+.bottom{
+   color:white;
+    text-align: center;
+    background-color:grey;
+    height: 100px;
+    padding-top: 30px; 
+}
+#slider{
+    overflow: hidden;
+
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+
+}
+@keyframes slider{
+     0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+}
